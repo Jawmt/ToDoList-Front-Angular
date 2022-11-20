@@ -6,7 +6,7 @@
   <h3 align="center">Application ToDoList FRONTEND</h3>
 
   <p align="center">
-    Application frontend angular permettant de gerer l'affichage, l'ajout ainsi que la suppression de taches à réaliser.
+    Application frontend permettant de gerer l'affichage, l'ajout ainsi que la suppression de taches à réaliser.
     L'application frontend a été réalisée avec l'application Angular
     <br />
     <br />
