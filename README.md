@@ -1,27 +1,40 @@
-# ToDoListFront
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.1.
+  <h3 align="center">Application ToDoList FRONTEND</h3>
 
-## Development server
+  <p align="center">
+    Application frontend angular permettant de gerer l'affichage, l'ajout ainsi que la suppression de taches à réaliser.
+    L'application frontend a été réalisée avec l'application Angular
+    <br />
+    <br />
+    <br />
+  </p>
+</div>
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+<!-- ABOUT THE PROJECT -->
+## Preview of The Project
 
-## Code scaffolding
+![Design preview for the website](./Desktop.png)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
+# Getting Started  
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### Installation des dépendances & lancement du serveur
 
-## Running end-to-end tests
+``` 
+npm install
+ng serve
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+```
 
-## Further help
+Application visible à l'adresse suivante : `http://localhost:4200/`
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+L'application frontend necessite le lancement du serveur backend ToDoList_Back_Spring disponible sur mon repository.
+
+
+
