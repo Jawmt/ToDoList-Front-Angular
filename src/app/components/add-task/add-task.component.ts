@@ -13,7 +13,7 @@ export class AddTaskComponent implements OnInit {
 
     @Output() 
     refreshList = new EventEmitter();
-
+    value="Clear me"
     task:any = {
         theTask : ''
     }

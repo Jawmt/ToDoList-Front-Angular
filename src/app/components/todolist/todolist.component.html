@@ -1,4 +1,6 @@
-<ul>
-    <li *ngFor="let task of tasks">{{task.theTask}} <button (click)="deleteTask(task.id)">Supprimer</button></li>
-    
-</ul>
+<div *ngFor="let task of tasks" class="line">
+    <div>{{task.theTask}}</div>
+    <button mat-mini-fab color="primary" (click)="deleteTask(task.id)">
+        <mat-icon>delete</mat-icon>
+    </button>
+</div>

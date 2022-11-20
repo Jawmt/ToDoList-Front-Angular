@@ -1,3 +1,7 @@
 <router-outlet></router-outlet>
-<app-add-task (refreshList)="refreshList($event)"></app-add-task>
-<app-todolist [refreshGrid]="refreshGrid"></app-todolist>
+<div class="main">
+    <h1>Ma Liste De Taches</h1>
+    <app-add-task (refreshList)="refreshList($event)"></app-add-task>
+    <app-todolist [refreshGrid]="refreshGrid"></app-todolist>
+</div>
+
